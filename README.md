@@ -96,13 +96,13 @@ The conversion rate on 2024-10-07 from AUD to BGN was 1.2132. So 0.00 in AUD equ
 ### Markdown Output:
 The markdown format presents the conversion results structured with bullet points for clarity. An example output would look like this:
 ```
-### Conversion Result
-- **Conversion Date:** 2024-10-07
-- **Amount Converted:** 0.00 AUD corresponds to **0.00 BGN**
-- **From Currency:** AUD
-- **To Currency:** BGN
-- **Conversion Rate:** 1.2132
-- **Inverse Rate:** 0.8243
+ Conversion Result
+- Conversion Date: 2024-10-07
+- Amount Converted: 0.00 AUD corresponds to **0.00 BGN**
+- From Currency: AUD
+- To Currency: BGN
+- Conversion Rate: 1.2132
+- Inverse Rate: 0.8243
 ```
 
 ### Swap Feature

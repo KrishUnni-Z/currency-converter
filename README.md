@@ -22,12 +22,12 @@ This is a simple currency converter application that allows users to convert amo
 
 1. **Clone the Repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/KrishUnni-Z/currency-converter.git
     ```
 
 2. **Navigate to the Project Directory**:
     ```bash
-    cd <project-directory>
+   cd currency-converter
     ```
 
 3. **Install Required Packages**:

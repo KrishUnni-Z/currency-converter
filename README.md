@@ -78,6 +78,41 @@ This is a simple currency converter application that allows users to convert amo
 - `requirements.txt`: Lists all Python dependencies needed to run the app.
 - `README.txt`: The file you are currently reading, which documents how to use the app.
 
+### Functions Explained
+- `round_rate(rate)`: Rounds the given conversion rate to four decimal places for clarity and consistency in display.
+- `reverse_rate(rate)`: Calculates the inverse of a given conversion rate, rounded to four decimal places. This is useful for displaying how much of the base currency one unit of the target currency is worth.
+- `format_output(date, from_currency, to_currency, rate, amount)`: Formats the conversion output into plain text and markdown. It returns a comprehensive string that includes the conversion date, amount, converted value, conversion rate, and inverse rate.
+
+
+## Output Format
+The output of the currency conversion is presented in two formats: plain text and markdown.
+
+### Plain Text Output:
+This format provides a summary of the conversion details in a straightforward manner. An example output would be:
+```
+The conversion rate on 2024-10-07 from AUD to BGN was 1.2132. So 0.00 in AUD equals 0.00 in BGN. The inverse rate is 0.8243.
+```
+
+### Markdown Output:
+The markdown format presents the conversion results structured with bullet points for clarity. An example output would look like this:
+```
+### Conversion Result
+- **Conversion Date:** 2024-10-07
+- **Amount Converted:** 0.00 AUD corresponds to **0.00 BGN**
+- **From Currency:** AUD
+- **To Currency:** BGN
+- **Conversion Rate:** 1.2132
+- **Inverse Rate:** 0.8243
+```
+
+### Swap Feature
+
+The swap feature allows users to quickly exchange the 'from' and 'to' currencies by clicking a button with an arrow symbol (↔️). This enhances user experience by making the conversion process more efficient, especially for users who frequently switch currencies.
+
+### Date and Time Limitations
+
+When fetching historical rates, users are required to select a valid past date. The application does not support future dates for historical rate queries, as the API only provides historical data. Make sure to select a date that is not in the future to ensure successful retrieval of the conversion rate.
+
 ## Citations
 
 - **Frankfurter API**: [Frankfurter API Documentation](https://www.frankfurter.app/)

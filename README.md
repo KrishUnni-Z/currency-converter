@@ -42,7 +42,6 @@ This is a simple currency converter application that allows users to convert amo
 5. **Packages and Versions**:
     - `streamlit` >= 1.21.0
     - `requests` >= 2.28.0
-    - `python` == 3.10
 
 ## How to Run the Program
 
@@ -66,6 +65,7 @@ This is a simple currency converter application that allows users to convert amo
 ├── app.py                # Main application script
 ├── frankfurter.py        # Handles fetching currency data from the Frankfurter API
 ├── currency.py           # Contains utility functions for formatting outputs
+├── api.py                # Contains functions to interact with the API.
 ├── requirements.txt      # List of required Python packages
 └── README.txt            # Documentation for the project
 ```
@@ -74,6 +74,7 @@ This is a simple currency converter application that allows users to convert amo
 
 - `app.py`: Main file for running the Streamlit app. It includes user interface, API interaction, and output formatting.
 - `frankfurter.py`: Contains functions to fetch the list of currencies and conversion rates from the Frankfurter API.
+- `api.py`: Contains functions to interact with the API.
 - `currency.py`: Helper functions to format output and handle currency conversion logic.
 - `requirements.txt`: Lists all Python dependencies needed to run the app.
 - `README.txt`: The file you are currently reading, which documents how to use the app.
